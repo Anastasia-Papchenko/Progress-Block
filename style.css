@@ -19,10 +19,10 @@ h1 {
 
 .progress-circle {
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  justify-content: center;
+  align-items: center;
   width: 40vh; 
-  height: 50vh; 
+  height: 50vh;
   transform-origin: center;
   transition: opacity 0.3s ease;
 }
@@ -32,13 +32,16 @@ h1 {
   pointer-events: none;
 }
 
+.progress-circle svg {
+  display: block;
+}
+
 .progress-circle svg .bg {
-  width: 100%; 
-  height: 100%;
   fill: none;
   stroke: #eae7e7;
   stroke-width: 10;
 }
+
 .progress-circle svg .fg {
   width: 100%; 
   height: 100%;
@@ -147,7 +150,7 @@ input:checked + .slider:before {
 
 @media (max-width: 320px) {
   .progress-container {
-    flex-direction: column; /* Изменяем направление элементов на колонку */
+    flex-direction: column; 
   }
 }
 
