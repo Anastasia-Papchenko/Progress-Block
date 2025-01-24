@@ -40,6 +40,7 @@ updateProgress(valueInput.value);
 
 valueInput.addEventListener('input', (e) => {
   const newValue = Math.max(0, Math.min(100, e.target.value));
+  e.target.value = newValue;
   updateProgress(newValue);
 });
 
