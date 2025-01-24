@@ -152,6 +152,10 @@ input:checked + .slider:before {
   .progress-container {
     flex-direction: column; 
   }
+  .progress-circle {
+    width: 40vw; 
+    height: 50vw;
+  }
 }
 
 
