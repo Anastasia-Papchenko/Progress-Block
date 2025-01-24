@@ -28,5 +28,5 @@
 
 <font color="blue">Макеты</font>
 
-![layout]()
+![layout](https://github.com/Anastasia-Papchenko/Progress-Block/blob/18b4602fc525125e34f2a1b0fe969f7d2eb1fcc5/layout.png)
  
